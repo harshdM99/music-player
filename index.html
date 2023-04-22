@@ -2,8 +2,40 @@
 <head>
     <title>Musify</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42691c86ca.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <header id="body-header">
+        <nav>
+            <ul class="horizontal-list">
+                <!-- <li>  </li> -->
+                <li>
+                    <img src="static/app-icon.png" alt="App logo" class="icon">
+                    <div class="d-inline">
+                        <p class="vertical-text">Mishra <strong>Studio</strong></p>
+                    </div>
+                </li>
+                <li> <p>Favourites</p> </li>
+                <li> <div class="empty-space"></div> </li>
+                <li> 
+                    <img src="static/search-icon.png" alt="App logo" class="icon search-icon">
+                    <input type="search" name="song" class="search-bar" placeholder="Search"> 
+                    <img src="static/microphone-icon.png" alt="App logo" class="icon mic-icon">
+                </li>
+                <li> <img src="static/bell-icon.png" alt="Notification icon" class="icon"> </li>
+                <li> <img src="static/profile-icon.png" alt="Profile icon" class="icon">  </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="carousel-albums"></section>
+        <section id="latest-release"></section>
+        <section id="popular-artist"></section>
+        <section id="genre-small"></section>
+        <section id="genre-large"></section>
+        <section id="latest-english"></section>
+        <section id="latest-hindi"></section>
+    </main>
 </body>
 </html>

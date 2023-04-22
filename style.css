@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 3, 47);
+    color: white;
+}
+
+/* Top Navigation bar */
+#body-header .icon {
+    height: 30px;
+    width: 30px;
+    padding: 0 5px 0;
+}
+#body-header nav {
+    font-size: 1.2rem;
+}
+#body-header .horizontal-list> * {
+    /* border: 2px solid lightblue; */
+}
+
+#body-header .horizontal-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    display: flex;
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    gap: 2rem;
+    /* align-content: space-between; */
+}
+
+#body-header .horizontal-list li {
+    align-self: center;
+}
+
+#body-header .horizontal-list li p{
+    margin: 0;
+    padding: 0;
+}
+
+#body-header .horizontal-list li:nth-child(3) {
+    background-color: white;
+    flex-grow: 1;
+}
+
+#body-header .horizontal-list .vertical-text{
+    width: 4rem;
+    /* background-color: white; */
+}
+
+#body-header .search-bar {
+    background-color: rgb(2, 2, 75);
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    font-size: 1.2rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+#body-header .search-icon {
+    position: absolute;
+    /* width: 14px; */
+    /* height: 100%; */
+    z-index: 1;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+#body-header .mic-icon{
+    position: absolute;
+    left: 88.5%;
+    height: 23px;
+    width: 23px;
+    cursor: pointer;
+}
+
+/* UTILITY CLASSES */
+.d-inline{
+    display: inline-block;
+}
